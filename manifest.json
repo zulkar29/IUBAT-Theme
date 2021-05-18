@@ -1,0 +1,43 @@
+{
+    "name": "IUBAT Theme",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "description":"IUBAT Green Campus photos theme",
+    "icons":{
+        "128":"./icons/128.png",
+        "48":"./icons/48.png",
+        "32":"./icons/32.png",
+        "16":"./icons/16.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/16.png",
+        "default_title":"IUBAT"
+      },
+      "theme": {
+       
+        "images" : {
+          "theme_ntp_background":"./bg/main.jpg"
+        },
+
+        "colors" : {
+            "frame" : [37, 156, 94],
+            "toolbar" : [235, 223, 237],
+            "ntp_text" : [20, 40, 0],
+            "ntp_link" : [235, 223, 237],
+            "ntp_section" : [207, 221, 192],
+            "button_background" : [18, 161, 99]
+          },
+          "tints" : {
+            "buttons" : [0.33, 0.5, 0.47]
+          },
+          "properties" : {
+            "ntp_background_alignment" : "center",
+            "ntp_background_repeat": "no-repeat"
+          }
+    }
+
+
+
+
+}
